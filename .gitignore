@@ -4,6 +4,13 @@
 node_modules/
 
 # Expo
+node_modules
+.expo
+.expo-shared
+dist
+android
+ios
+.env
 .expo/
 dist/
 web-build/

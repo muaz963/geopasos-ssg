@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "ruta-silencio" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-3.5995, 37.1759], [-3.5991, 37.1763], [-3.5980, 37.1770]]
+      }
+    }
+  ]
+}

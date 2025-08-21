@@ -1,0 +1,14 @@
+[
+  {
+    "id": "silencio-jueves",
+    "nombre": "El Silencio",
+    "cofradia": "Hermandad del Silencio",
+    "fecha": "2025-04-17",
+    "hora_inicio": "22:00",
+    "barrio": "Centro",
+    "puntos_clave": [
+      { "nombre": "Salida", "lat": 37.1759, "lng": -3.5995, "hora_aprox": "22:00" }
+    ],
+    "rutaId": "ruta-silencio"
+  }
+]
