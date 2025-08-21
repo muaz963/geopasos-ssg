@@ -1,4 +1,5 @@
-// This function is web-only as native doesn't currently support server (or build-time) rendering.
-export function useClientOnlyValue<S, C>(server: S, client: C): S | C {
-  return client;
+import { Platform } from 'react-native';
+export function useClientOnlyValue<T>(_: T, initial: T) {
+  // En web puede renderizar dos veces; devolvemos un valor estable en SSR.
+  return Platform.OS === 'web' ? initial : _;
 }
